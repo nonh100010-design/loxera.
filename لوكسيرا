@@ -1,167 +1,167 @@
-<!DOCTYPE html>  
-<html lang="ar" dir="rtl">  
-<head>  
-  <meta charset="UTF-8" />  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
-  <title>ظ„ظˆظƒط³ظٹط±ط§ ط§ظ„ط¹ط±ط¨ظٹط© - ظ…طھط¬ط± ط¥ظ„ظƒطھط±ظˆظ†ظٹ</title>  
-  
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;800&display=swap" rel="stylesheet">  
-  
-  <style>  
-    body {  
-      margin: 0;  
-      font-family: 'Tajawal', sans-serif;  
-      background: #f7f7f7;  
-      color: #1c1c1c;  
-    }  
-  
-    header {  
-      background: white;  
-      padding: 15px 25px;  
-      display: flex;  
-      justify-content: space-between;  
-      align-items: center;  
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);  
-      position: sticky;  
-      top: 0;  
-    }  
-  
-    .logo {  
-      font-size: 22px;  
-      font-weight: 800;  
-      color: #1c1c1c;  
-    }  
-  
-    .logo span {  
-      color: #f6c445;  
-    }  
-  
-    nav a {  
-      margin: 0 10px;  
-      text-decoration: none;  
-      color: #333;  
-      font-weight: 500;  
-    }  
-  
-    .btn {  
-      background: #f6c445;  
-      border: none;  
-      padding: 10px 18px;  
-      border-radius: 10px;  
-      cursor: pointer;  
-      font-weight: bold;  
-    }  
-  
-    .hero {  
-      text-align: center;  
-      padding: 80px 20px;  
-      background: linear-gradient(to bottom, #fff, #fdf7e6);  
-    }  
-  
-    .hero h1 {  
-      font-size: 36px;  
-      margin-bottom: 10px;  
-    }  
-  
-    .hero p {  
-      color: #666;  
-      margin-bottom: 20px;  
-    }  
-  
-    .grid {  
-      display: grid;  
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));  
-      gap: 15px;  
-      padding: 30px;  
-    }  
-  
-    .card {  
-      background: white;  
-      border-radius: 15px;  
-      padding: 15px;  
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);  
-      text-align: center;  
-      transition: 0.3s;  
-    }  
-  
-    .card:hover {  
-      transform: translateY(-5px);  
-    }  
-  
-    .img {  
-      height: 120px;  
-      background: #f6f1df;  
-      border-radius: 12px;  
-      margin-bottom: 10px;  
-    }  
-  
-    .price {  
-      color: #f6c445;  
-      font-weight: bold;  
-    }  
-  
-    footer {  
-      text-align: center;  
-      padding: 20px;  
-      background: #fff;  
-      margin-top: 40px;  
-      font-size: 14px;  
-      color: #777;  
-    }  
-  </style>  
-</head>  
-<body>  
-  
-<header>  
-  <div class="logo">ظ„ظˆظƒط³ظٹط±ط§ <span>ط§ظ„ط¹ط±ط¨ظٹط©</span></div>  
-  <nav>  
-    <a href="#">ط§ظ„ط±ط¦ظٹط³ظٹط©</a>  
-    <a href="#">ط§ظ„ظ…طھط¬ط±</a>  
-    <a href="#">ط§ظ„ط¹ط±ظˆط¶</a>  
-    <a href="#">طھظˆط§طµظ„</a>  
-  </nav>  
-  <button class="btn">طھط³ظˆظ‚ ط§ظ„ط¢ظ†</button>  
-</header>  
-  
-<section class="hero">  
-  <h1>طھط³ظˆظ‚ ط¨ط£ط³ظ„ظˆط¨ ط¹طµط±ظٹ ظˆظپط®ظ…</h1>  
-  <p>ظ…ظ†طھط¬ط§طھ ظ…ط®طھط§ط±ط© ط¨ط¹ظ†ط§ظٹط© ظ„طھط¬ط±ط¨ط© طھط³ظˆظ‚ ط±ط§ظ‚ظٹط©</p>  
-  <button class="btn">ط§ط¨ط¯ط£ ط§ظ„طھط³ظˆظ‚</button>  
-</section>  
-  
-<section class="grid">  
-  <div class="card">  
-    <div class="img"></div>  
-    <h3>ظ…ظ†طھط¬ ظپط§ط®ط±</h3>  
-    <p class="price">99 ط±.ط³</p>  
-    <button class="btn">ط£ط¶ظپ ظ„ظ„ط³ظ„ط©</button>  
-  </div>  
-  
-  <div class="card">  
-    <div class="img"></div>  
-    <h3>ظ…ظ†طھط¬ ط¬ط¯ظٹط¯</h3>  
-    <p class="price">149 ط±.ط³</p>  
-    <button class="btn">ط£ط¶ظپ ظ„ظ„ط³ظ„ط©</button>  
-  </div>  
-  
-  <div class="card">  
-    <div class="img"></div>  
-    <h3>ظ…ظ†طھط¬ ظ…ظ…ظٹط²</h3>  
-    <p class="price">79 ط±.ط³</p>  
-    <button class="btn">ط£ط¶ظپ ظ„ظ„ط³ظ„ط©</button>  
-  </div>  
-  
-  <div class="card">  
-    <div class="img"></div>  
-    <h3>ط¹ط±ط¶ ط®ط§طµ</h3>  
-    <p class="price">59 ط±.ط³</p>  
-    <button class="btn">ط£ط¶ظپ ظ„ظ„ط³ظ„ط©</button>  
-  </div>  
-</section>  
-  
-<footer>  
-  ط¬ظ…ظٹط¹ ط§ظ„ط­ظ‚ظˆظ‚ ظ…ط­ظپظˆط¸ط© آ© ظ„ظˆظƒط³ظٹط±ط§ ط§ظ„ط¹ط±ط¨ظٹط©  
-</footer>  
-  
-</body>  
-</html>  
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لوكسيرا العربية - متجر إلكتروني</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tajawal', sans-serif;
+      background: #f7f7f7;
+      color: #1c1c1c;
+    }
+
+    header {
+      background: white;
+      padding: 15px 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #1c1c1c;
+    }
+
+    .logo span {
+      color: #f6c445;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .btn {
+      background: #f6c445;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to bottom, #fff, #fdf7e6);
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      padding: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .img {
+      height: 120px;
+      background: #f6f1df;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #f6c445;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #fff;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">لوكسيرا <span>العربية</span></div>
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">المتجر</a>
+    <a href="#">العروض</a>
+    <a href="#">تواصل</a>
+  </nav>
+  <button class="btn">تسوق الآن</button>
+</header>
+
+<section class="hero">
+  <h1>تسوق بأسلوب عصري وفخم</h1>
+  <p>منتجات مختارة بعناية لتجربة تسوق راقية</p>
+  <button class="btn">ابدأ التسوق</button>
+</section>
+
+<section class="grid">
+  <div class="card">
+    <div class="img"></div>
+    <h3>منتج فاخر</h3>
+    <p class="price">99 ر.س</p>
+    <button class="btn">أضف للسلة</button>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>منتج جديد</h3>
+    <p class="price">149 ر.س</p>
+    <button class="btn">أضف للسلة</button>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>منتج مميز</h3>
+    <p class="price">79 ر.س</p>
+    <button class="btn">أضف للسلة</button>
+  </div>
+
+  <div class="card">
+    <div class="img"></div>
+    <h3>عرض خاص</h3>
+    <p class="price">59 ر.س</p>
+    <button class="btn">أضف للسلة</button>
+  </div>
+</section>
+
+<footer>
+  جميع الحقوق محفوظة © لوكسيرا العربية
+</footer>
+
+</body>
+</html>
